@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kinetic-harbor-384413",
+  "private_key_id": "ca9d5302867fbd7e6cd9b0cedeabb12a4da33e6e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCm11mIbBpyQdVn\nYLQ5hq/wXlp9QDG5pIqX1kN7vlt89QdfViRjyZ3vH2psraQ5qpv/9Zs8R/64pWUp\nBdCiJkGKRX+9PhRWKUHx1Ddm7bdfskiMKKFnuY+lOdmPb9Yc5Tz5I02KVzNa9Tqx\nqdb2IQ9StX/POueTNybDAjfr2rbGEAWccwYfFU1n09nFzscBeJPL1YLP37xE6hF/\nf1Tqp5xAcWdqRYjEkUxOuV+0xFvEmhc/GICqrsDZZWCLjOErwVunaYla/dydvzmT\nIXB/9QyZzni9WfwHH9w0Nk5Gi5pp23E8oVxHTLWlqjban1ZIl+wPDktR7f/W5rny\ngrDLuwjHAgMBAAECggEAFb6ccyzPt5N/+kS+yH6W4KeTeJ6MvIrG62ooCnExYFRZ\nHSJPhNfqpxc7miV5cXCce1wp2s3xU2RvDk0tN2zv/tL3BpWYNfCToS6M9/PEggrs\n7KOBAdFL+PdUtR6Y09RGwZvJx918mn66oxwlIZgGdLumCD6/ns7B1QmteyZayu5m\ncd9rwKvZmq3GlS+BDCo/aqG3wVBnmRuFF8NlsW1z9nO5VvYEQKHgwMo4dkRsGHW7\n/SqvdH9UEmLvNyBBVWVQmO6tJjEa4ER+q+jdj3yt6HEid+GYElx3xQ374A2hzlnF\nFHE2dykEdFLqgFXSdraOvyT8ikAjukPsBOWAK9fhYQKBgQDmwxe95eTUlClV/YXp\nsthm+35uEU8MBWHMyAX7ooZPfVS2HkQkvHwVMQpeghB+fP1bJEh4oCHmdZg3QTlK\n9b4hcTCtH87JgyxsxBRvxfbyPvVBFLBZZR0IMibegSvJLCT6fV2vUuGiarMMKrd/\naMQNlpI/lSHgh6o3M6mQ0iidYQKBgQC5FpeM+Y6iM4xEEINNMzFtuGdvDAlH25MN\nVhFKJshZKHwFx85nND3f9E8amV9wdRlMD1fnGOXhfJKQdvwSXNYED6u5EFUPrQg6\nvxcHdaLEvPkrZmyVyp75i+QKTU8Y+lmVt1QDQs8Kf5qLrohAeioNgStT2zpT1kwx\nMvECkA5vJwKBgQDHF+VA+rruSZJMVXqXAa3BVBRlpFtd1Lrncl/vFe7pYAmZQw2p\n4FDx+6ill3Phnbb9TpWUNRxqeGTGr2hd6x2KPt0vUPUZWSoYAShcsyD3KihxaQcp\naZqdup9cc3eyjnqs/0K4BDsV5RbrVWOR8nLMAm/VmbZrwMCz9cfDYf6WoQKBgBZc\nombH5/G05Kd8j0COhNRKyURjYeOqpbOgyGn7EY2kFIfmQgu6Bhe+vqfqC9vcafgE\nioxDN9LsaBDIL2BQkxLeidLMJFrGfw4J9FBUaBv48OnLcCcQ2fAwdJbCDGJqLNSn\n16ClO7p6/EMQDSotGFOVXZS+Eef7Ji1ziCbVHMlVAoGAQ7Xfh73yNyi39+9wPAfc\nQAQFswWreQ6Dx2qQa+91jXmiA38M5ZSXBYOIjU7tkruL0BwiEoNHfQaLcf3a4RsC\nxAsDzyQljKEhVVrRUrfz7uiK49obg6vSQ/4h2qW0XpB8mCXixpw8AWYsCL6tZiRV\nc8PQUCYfB0Ojzf+dfvmxkpI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deb-bigquery-workshop-day-2@kinetic-harbor-384413.iam.gserviceaccount.com",
+  "client_id": "106233527441166687962",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb-bigquery-workshop-day-2%40kinetic-harbor-384413.iam.gserviceaccount.com"
+}
