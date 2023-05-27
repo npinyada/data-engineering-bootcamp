@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_networkrail__movements
+    description: Staging model for Network Rail movement data
+    columns:
+      - name: event_type
+        description: Event type
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ARRIVAL', 'DEPARTURE']
+          - dbt_expectations.expect_column_to_exist
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: string
+      - name: actual_timestamp_utc
+        description: Actual timestamp in UTC
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_to_exist
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: timestamp
+  - name: stg_networkrail__operating_companies
+    description: Staging model for Network Rail Operating Companies data
+    columns:
+      - name: toc_id
+        description: TOC ID
+      - name: company_name
+        description: Company Name

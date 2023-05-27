@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kinetic-harbor-384413",
+  "private_key_id": "27585638075a4afa545cddb59b4038998f29e35a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2fnpkjcg8xCCY\n//6pUrEVVVOTOziONutq4PITMpeDkLHTRbxd5fIX5x2dsgEYjYbziGni79uvmvN4\nlNiV9gMTYrIIJA3jvsbk+v8aNDg+yH0gAytmlYAL3YRhI5W2LOIH0eCRble4WglT\nqp7F91lfyI0O7dYIE3a6dwnXHHdI7YbIZ717xfFVfwDh2nkMltYJCFL1gup2N8X0\nP7Bw+fjcbYmeh8sxef02cag+CbD9R4VJaqESgY/LOB5ESP+wn+YkzLqlTkcJT0EB\nneuoWgqCCC83hF3uanYR+B279h2ad/6fkN1CbNhacymDoFAER+rnR2wCTT2JBb0T\niIQLCdVLAgMBAAECggEABqebuKFPnSD9G/yFzFCMIujZeIPPKaceCZKKBqIwfTyL\nB4HCVIg8k5uQFxPfz1s7LGlGjInORdvi0fxXiOG6NfxCMrgh24gK7QcBbh1btF+6\nPwRukjnpu++y0pn/bRpmOakbxSHeyAWx07UOlM3SxVflBkItAl63VHsKcaeDlWCo\nHP58gB0LUudKoR2LIj14XTrLfSNAVwfg5W+m446w3pPLVhbqW3Y841G7hm3QGJMS\nVAodhJ9aCXxc0jgL+DrW/Hk/rOjY2kNYl3fCJpT63AV5O+N1f8joAGieY2D02Nck\nMxwdpGP+kyNlVsbzSIu1SdxxQ9y8cpleO2fkv7vCgQKBgQD06UKqo45d7vUWKiMF\nhypTKP49OLValcpXxq1zoBejOvp4WLsqkB9VMBfVbz6RgISfyCteCdmqrfLc+ibV\n4IlBh27OZELElB2wI0eL3lNxlmt+xGqIhxujD9ntc6D4waWqeWmpQwfztN9asdnZ\nCLehiRvvMljQOhwjKuDkZ/iQgQKBgQC+wb9YccBpN/JkOFT2iOl5Ue1V2zehqgXI\nBLMbSF5Q/umR3Ya8sO4R9fdlfe9TuHsZu2bWMRuV+EDZGzFxiTsYKgI6ysgVvJFv\nt4EjY+0OLm/5jmVdlMFFBahp4L70aiG38MX7b/aLgiQ5/iVLq7TL9UYzWT9TFNZW\nbeYu5Z+/ywKBgQDnfdwP4ozc6NMsYiO8Q+iTtjmpsIJq3w7lLNwiYH43QbYiLuyq\n7JNROCYvDfl8GphBVzj2qCTgGY9no+M1YgkasWLhHw+lM8NkC9TCtiD1SpLMvedc\nqShMVt1MfnD28EMhAaYH4V4Q0zQTS+x4Iq8/tpN64oHkQCj8bLkp68SdAQKBgF+O\nswndQePzkMs/pOAzSbHqppfBzyZ/A5JlOEvMfuLYL61QabSQdVIuAxamdYNdAN2t\nESDvTMBdsi6P/r6/XgkG0kMdXgn1gm2SYXCXGCNog9Nhz8mHQSIQaYNQgJfzqpx4\nUtVYCwtr0DX06D318AXUAqyqYpx97bkyKIMJqHLtAoGAMPJ0rGpIsmQp1FTMprbX\nrV+gzlQGkWOYelK66pLLWI0TP6JsmZiCEub5+4q/KQd9oMFNkh05e7jkbqcP0vGc\nBgBhHTJVYlFimlDS2u5g4Onqbl04FCBGNe5czNzHYt4/8Zr9gO7p6jm4byccLGR2\nMSf9FuP1bO0XebNO5H1Jw9E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deb-bootcamp-bigquery-and-gcs@kinetic-harbor-384413.iam.gserviceaccount.com",
+  "client_id": "113321067864167181630",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb-bootcamp-bigquery-and-gcs%40kinetic-harbor-384413.iam.gserviceaccount.com"
+}

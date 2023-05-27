@@ -1,0 +1,21 @@
+networkrail:
+  target: dbt_noi
+
+  outputs:
+    dbt_noi:
+      type: bigquery
+      method: service-account
+      project: kinetic-harbor-384413
+      dataset: dbt_noi
+      threads: 1
+      keyfile: /workspaces/data-engineering-bootcamp/07-end-to-end-project/dags/kinetic-harbor-384413-27585638075a_bigquery_and_gcs.json
+      location: asia-southeast1
+
+    prod:
+      type: bigquery
+      method: service-account
+      project: kinetic-harbor-384413
+      dataset: networkrail
+      threads: 1
+      keyfile: /workspaces/data-engineering-bootcamp/07-end-to-end-project/dags/kinetic-harbor-384413-27585638075a_bigquery_and_gcs.json
+      location: asia-southeast1

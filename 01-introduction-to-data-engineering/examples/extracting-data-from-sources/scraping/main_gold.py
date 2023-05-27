@@ -1,8 +1,36 @@
 import csv
-
 import scrapy
 from scrapy.crawler import CrawlerProcess
 
+DATA_FOLDER = "data"
+
+# keyfile = os.environ.get("KEYFILE_PATH")
+keyfile = "bigquery.json"
+service_account_info = json.load(open(keyfile))
+credentials = service_account.Credentials.from_service_account_info(service_account_info)
+project_id = "kinetic-harbor-384413"
+client = bigquery.Client(
+    project=project_id,
+    credentials=credentials,
+)
+
+def load_data_without_partition(data):
+    job_config = bigquery.LoadJobConfig(
+        skip_leading_rows=1,
+        write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,
+        source_format=bigquery.SourceFormat.CSV,
+        autodetect=True,
+    )
+
+   
+    file_path = f"{DATA_FOLDER}/{data}.csv"
+    with open(file_path, "rb") as f:
+        table_id = f"{project_id}.deb_bootcamp.{data}"
+        job = client.load_table_from_file(f, table_id, job_config=job_config)
+        job.result()
+
+    table = client.get_table(table_id)
+    print(f"Loaded {table.num_rows} rows and {len(table.schema)} columns to {table_id}")
 
 URL = "https://ทองคําราคา.com/"
 
@@ -21,11 +49,14 @@ class MySpider(scrapy.Spider):
         rows = table.css("tr")
         # rows = table.xpath("//tr")
         # print(rows)
-
-        for row in rows:
-            print(row.css("td::text").extract())
+        with open(f"datagold.csv", "w") as f:
+            writer = csv.writer(f)
+            for row in rows:
+                #print(row.css("td::text").extract())
+          
+                writer.writerow(row.css("td::text").extract())
             # print(row.xpath("td//text()").extract())
-
+      
         # Write to CSV
         # YOUR CODE HERE
 

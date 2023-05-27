@@ -1,0 +1,18 @@
+with source as (
+
+    select * from {{ source('greenery', 'order-items') }}
+
+),
+
+renamed_recasted as (
+
+    select
+        `order` as order_guid
+        , product as product_guid
+        , quantity as quantity
+
+    from source
+
+)
+
+select * from renamed_recasted
